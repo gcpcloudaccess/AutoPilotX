@@ -271,7 +271,7 @@ The default service accounts are de-privileged. You **must** attach your Workloa
 * vars.INFRA_SA_ID - The fully qualified ID representation of the SA you can use to deploy infrastructure.: projects/hack-team-teraformers/serviceAccounts/infrastructure@hack-team-teraformers.iam.gserviceaccount.com
 * vars.OPENSHIFT_NAMESPACE - The OpenShift namespace for your team: teraformers-official
 * vars.OPENSHIFT_REGISTRY - The OpenShift internal registry URL: image-registry.openshift-image-registry.svc:5000
-* vars.OPENSHIFT_SERVER - The OpenShift cluster API endpoint URL: https://api.hackathon.francecentral.aroapp.io:6443
+* vars.OPENSHIFT_SERVER - The OpenShift cluster API endpoint URL: https://api.dbhackathon.swedencentral.aroapp.io:6443
 * vars.PROJECT_ID - Your team's GCP Project ID.: hack-team-teraformers
 * vars.PROJECT_NUMBER - Your teams' GCP Project Number.: 405713174529
 * vars.WORKLOAD_IDENTITY_PROVIDER - The ID of the Workload Identity provider you cah use to authenticate from GitHub Actions to your GCP project.: projects/662541806905/locations/global/workloadIdentityPools/github-2026/providers/github-2026
@@ -292,7 +292,7 @@ A set of useful input variables has been populated for you:
 * infra_sa_id - The fully qualified ID representation of the SA you can use to deploy infrastructure.: projects/hack-team-teraformers/serviceAccounts/infrastructure@hack-team-teraformers.iam.gserviceaccount.com
 * openshift_namespace - The OpenShift namespace for your team: teraformers-official
 * openshift_registry - The OpenShift internal registry URL: image-registry.openshift-image-registry.svc:5000
-* openshift_server - The OpenShift cluster API endpoint URL: https://api.hackathon.francecentral.aroapp.io:6443
+* openshift_server - The OpenShift cluster API endpoint URL: https://api.dbhackathon.swedencentral.aroapp.io:6443
 * project_id - Your team's GCP Project ID.: hack-team-teraformers
 * project_number - Your teams' GCP Project Number.: 405713174529
 * workload_identity_provider - The ID of the Workload Identity provider you cah use to authenticate from GitHub Actions to your GCP project.: projects/662541806905/locations/global/workloadIdentityPools/github-2026/providers/github-2026
