@@ -1,0 +1,6 @@
+google-cloud-container-analysis>=1.11.0
+google-cloud-firestore>=2.12.0
+python-docker>=6.0.0
+streamlit>=1.28.0
+plotly>=5.17.0
+pandas>=2.0.0
