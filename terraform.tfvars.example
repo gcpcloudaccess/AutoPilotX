@@ -1,6 +1,6 @@
 # Copy to terraform.tfvars and fill in your values.
 
-project_id     = "studied-bridge-432411-s5"
+project_id     = "auto-app-healer"
 region         = "us-central1"
 repository_id  = "my-repo"
 format         = "DOCKER"
